@@ -6,6 +6,7 @@ This is an assignment I'm completing for my I310D class. The goal of this projec
 I used the beautiful soup API to web scrap the table data from the URL: "https://meta.wikimedia.org/wiki/List_of_Wikipedias/Table". This is an internal table by wikipedia about various status related to its own website (such as users, language, etc.)
 The data collect was of the following attributes: Nominal (Language, Language (local), and wiki), numeriacl (Articles, all pages, edits, admins, users, active users, files), continous (depth), and discrete (Number).
 There is no bias that I am aware of. It is worth noting that wikipedia is open source as thus more vulnerable to being changed or wrong however, in the same sense, as the data is internal data about its own interworkings, it is likely to be accurate. Additionally, most of the data is objective so assuming there is no error in the original data source (that the table I used drew from), the data is likely to accurately represent wikipedia.
+This data is used to compare the relationship between the data of active users (in relation to other stats) & regular users (in relation to other stats). This was done based off my original hypothesis that there would be a difference between these two categories however, I found that there was not substancail difference between the two.
 
 My code is under the MIT license.
 
